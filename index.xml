@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinyue&#39;s homepage</title>
+    <link>https://xinyuelan.github.io/</link>
+      <atom:link href="https://xinyuelan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinyue&#39;s homepage</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Oct 2020 21:38:54 +0800</lastBuildDate>
+    <image>
+      <url>https://xinyuelan.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Xinyue&#39;s homepage</title>
+      <link>https://xinyuelan.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Curvilinear path generation for UGV with improved ant colony algorithm</title>
+      <link>https://xinyuelan.github.io/project/path_generation/</link>
+      <pubDate>Wed, 21 Oct 2020 21:38:54 +0800</pubDate>
+      <guid>https://xinyuelan.github.io/project/path_generation/</guid>
+      <description>&lt;p&gt;In Ant Colony Optimization (ACO), artificial ‘ants’ (e.g. simulation agents) locate optimal solutions by moving through a parameter space representing all possible solutions. Real ants lay down pheromones directing each other to resources while exploring their environment. The simulated ‘ants’ similarly record their positions and the quality of their solutions, so that in later simulation iterations more ants locate better solutions. To deal with the complexity of different maps considering safety and path consistency is a problem which has to be addressed in path planning of Unmanned Ground Vehicle (UGV).
+In this paper, an efficient approach is introduced through combining improved Ant Colony Optimization (ACO) algorithm with cubic spline parametrization to provide smooth global route. Firstly, grid map is constructed. Initial cost policy is introduced for ant to search and performance of ant colony algorithm is improved through adding A* heuristic search and MAX_MIN ant system characteristics to enhance global searching ability. To improve localization and path consistency in global path, an evaluation function based on novel cost policy is introduced to evaluate path candidates in order to improve the quality of global path. At last, arc-length parametrization is applied to achieve path consistency and smoothness. The simulation results show optimal performance of this approach in complex maps including common and tunnel maps as compared with other versions of ACO algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Zero Velocity Update in Inertial Tracking Based on Neural Network</title>
+      <link>https://xinyuelan.github.io/project/azupt/</link>
+      <pubDate>Tue, 20 Oct 2020 02:28:09 +0800</pubDate>
+      <guid>https://xinyuelan.github.io/project/azupt/</guid>
+      <description>&lt;p&gt;Abstract: Zero Velocity Update (ZUPT) has played a key role in Pedestrian Dead Reckoning (PDR) with inertial measurement
+units (IMU). However, it is both crucial and difficult to determine ZUPT conditions given complex and varying motion types such as walking, fast walking or running, and different walking habits of distinct people, which have direct and significant impact on the tracking accuracy. In this research we proposed a model based on deep neural networks to determine moments when the ZUPT should be conducted. The proposed model ensures nearly identical performance regardless of different motion types. It has been demonstrated by extensive experiments conducted in three different scenarios that our model can work equally well with different pedestrians and walking patterns, enabling the wide use of PDR in real-world applications&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual SLAM with Deep Learning in Dynamic Scenes</title>
+      <link>https://xinyuelan.github.io/project/visual-slam-in-dynamic-scenes/</link>
+      <pubDate>Wed, 07 Oct 2020 04:06:21 +0800</pubDate>
+      <guid>https://xinyuelan.github.io/project/visual-slam-in-dynamic-scenes/</guid>
+      <description>&lt;p&gt;In order to improve the robustness of classic visual SLAM in highly dynamic scenes such as shopping malls and corridors, we embedded YOLO, a deep learning network for object detection in ORB-SLAM2 for dynamic object detection and filtering. The system outperformed the state-of-the-art visual SLAM system by 80% in tracking robustness in dynamic scenes. Currently, we are still working on possible participations of deep learning in other parts of visual SLAM and experimenting fusion sensors including monocular camera and odometer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AZUPT: Adaptive Zero Velocity Update Based on Neural Networks for Pedestrian Tracking</title>
+      <link>https://xinyuelan.github.io/publication/azupt/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://xinyuelan.github.io/publication/azupt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curvilinear path generation for UGV with improved ant colony algorithm</title>
+      <link>https://xinyuelan.github.io/publication/path-planning/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://xinyuelan.github.io/publication/path-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rover Design in Webots to Complete Specific Tasks in Virtual Patios</title>
+      <link>https://xinyuelan.github.io/project/tdps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinyuelan.github.io/project/tdps/</guid>
+      <description>&lt;p&gt;This project gave out the detailed design of a robot with the ability to finish a set of specific tasks in a given patio. The design of the robot and patio are based on Webots, an open-source robot simulator developed by Cyberbotics. The libraries and sensors available in Webots were involved in this project.
+Our team has been divided into several squads to study and apply the basic technologies on a robot to complete tasks using sensor nodes in Webots { environment building, tracking, color recognition, crossing bridge and arch, object recognition and throwing object into the virtual pond. To be specific, based on a Pioneer 3-AT prototype, 4 camera nodes were mounted as main sensors for path following, color recognition and object recognition since the cost was relatively low and the library of camera node was comprehensive in Webots; a compass was installed inside the robot to calculate the angle as it turning; in addition, a liftable gripper was assembled on the robot to drop the fish food by moving its finger nodes. Essential coding skills using C programming language were applied in our project to eliminate the potential problems and errors.
+By our joint effort in three months, a stable controller of the robot has been constructed successfully and its flawless performance in simulator verified the effectiveness of our design.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
